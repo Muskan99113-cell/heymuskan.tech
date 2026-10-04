@@ -29,3 +29,5 @@
   .nav .nav-github-mobile{display:block;margin-top:6px;border:1px solid var(--line);color:var(--ink);text-align:center}
 }
 @keyframes navDrop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.project-card-wide{grid-column:1/-1}
+.github-project-card:last-child:nth-child(odd){grid-column:1/-1}
