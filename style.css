@@ -31,3 +31,5 @@
 @keyframes navDrop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
 .project-card-wide{grid-column:1/-1}
 .github-project-card:last-child:nth-child(odd){grid-column:1/-1}
+.project-grid .project-card:last-child:nth-child(odd){grid-column:1/-1}
+.project-card .project-link+.project-link{margin-left:18px}
