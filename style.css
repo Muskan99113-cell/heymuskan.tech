@@ -33,3 +33,10 @@
 .github-project-card:last-child:nth-child(odd){grid-column:1/-1}
 .project-grid .project-card:last-child:nth-child(odd){grid-column:1/-1}
 .project-card .project-link+.project-link{margin-left:18px}
+/* ---------- Sahay featured project ---------- */
+.project-feature+.project-feature{margin-top:22px}
+.sahay-art-big{background:#2a2540}
+.sahay-art-big:before{content:"";position:absolute;inset:12%;border:1px solid rgba(220,210,240,.2);border-radius:50%;box-shadow:0 0 0 45px rgba(185,177,201,.04),0 0 0 90px rgba(185,177,201,.03)}
+.sahay-art-big .scan-line{background:#c4b8e0;box-shadow:0 0 20px #c4b8e0}
+.sahay-art-big .art-label{color:#cfc6e6}
+.project-sub,.project-sub.plain{font:500 15px "DM Sans",sans-serif;font-style:normal;color:var(--rose);letter-spacing:0}
